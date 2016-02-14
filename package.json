@@ -1,0 +1,35 @@
+{
+  "name": "hubot-datadog-snapshot",
+  "version": "0.1.0",
+  "description": "Hubot script for querying Datadog graph snapshots",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gshackles/hubot-datadog-snapshot.git"
+  },
+  "keywords": [
+    "datadog",
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": "Greg Shackles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gshackles/hubot-datadog-snapshot/issues"
+  },
+  "homepage": "https://github.com/gshackles/hubot-datadog-snapshot#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "dogapi": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "hubot-test-helper": "^1.4.4",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  }
+}
