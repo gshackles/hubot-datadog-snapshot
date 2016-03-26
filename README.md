@@ -2,6 +2,10 @@
 
 Hubot script for querying Datadog graph snapshots
 
+## Background
+
+This hubot script is demonstrated in the following blog post: http://www.gregshackles.com/querying-datadog-graphs-from-hubot/ 
+
 ## Installation
 
 First, in your Hubot repository run:
