@@ -1,6 +1,6 @@
 # hubot-datadog-snapshot
 
-![CI status](https://travis-ci.org/gshackles/hubot-datadog-snapshot.svg?branch=master)
+[![CI status](https://travis-ci.org/gshackles/hubot-datadog-snapshot.svg?branch=master)](https://travis-ci.org/gshackles/hubot-datadog-snapshot)
 
 Hubot script for querying Datadog graph snapshots
 
