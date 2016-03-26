@@ -9,7 +9,7 @@ _expectMessages = (room, messages, done) ->
   setTimeout ( ->
     expect(room.messages).to.eql(messages)
     done()
-  ), 100
+  ), 250
   
 _setSavedQueries = (room, queries) ->
   room.robot.brain.data._private =
