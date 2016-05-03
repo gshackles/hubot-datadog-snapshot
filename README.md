@@ -49,6 +49,13 @@ hubot> https://datadog/url
 
 The time period can be defined in seconds (`s`), minutes (`m`), hours (`h`), or days (`d`). You can also omit the time period and it will default to one hour.
 
+Note that some metrics may require you to provide scope in order to return a graph. In those cases, be sure to add the specific scope or a scope wildcard, e.g.
+
+```
+greg> hubot datadog query 24h avg:system.cpu.user{*}
+hubot> https://datadog/url
+```
+
 ### Saving a Query
 
 Hubot will always keep track of the last query requested by each user, making it simple to save it for future use. This is done on a per-user basis so there's no need to worry about multiple users querying things at once. This is the only user-specific interaction, so all other commands (including the saved queries themselves) are globally available.
