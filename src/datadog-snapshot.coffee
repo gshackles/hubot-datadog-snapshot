@@ -19,7 +19,7 @@
 dogapi = require("dogapi")
 
 userGraphs = {}
-queryStore = null
+queryStore = {}
 saveQueryStore = null
 graphResponseDelay = 0
 
